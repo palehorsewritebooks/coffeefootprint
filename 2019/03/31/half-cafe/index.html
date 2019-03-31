@@ -90,7 +90,7 @@
         
         <div class="navbar-menu navbar-end">
             
-            <a class="navbar-item search" title="Chercher" href="javascript:;">
+            <a class="navbar-item search" title="Buscar" href="javascript:;">
                 <i class="fas fa-search"></i>
             </a>
             
@@ -124,7 +124,7 @@
         <span class="column is-narrow">
             
             
-            a few seconds lire (À propos 0 mots)
+            a few seconds de lectura (Alrededor de 0 palabras)
         </span>
         
     </div>
@@ -152,16 +152,15 @@
 
 <div class="sharebox">
     
-<div class="notification is-danger">
-    You need to set <code>install_url</code> to use ShareThis. Please set it in <code>_config.yml</code>.
-</div>
+<div class="addthis_inline_share_toolbox"></div>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=xxxxxxxx"></script>
 
 </div>
 
 
 
 <div class="comments">
-    <h3 class="title is-4">Commentaires</h3>
+    <h3 class="title is-4">Comentarios</h3>
     
 <div id="disqus_thread">
     
@@ -331,7 +330,7 @@
     <div class="searchbox-mask"></div>
     <div class="searchbox-container ins-search-container">
         <div class="searchbox-input-wrapper">
-            <input type="text" class="searchbox-input ins-search-input" placeholder="Que voulez-vous chercher ?">
+            <input type="text" class="searchbox-input ins-search-input" placeholder="Escribe algo...">
             <span class="searchbox-close ins-close ins-selectable"><i class="fa fa-times-circle"></i></span>
         </div>
         <div class="searchbox-result-wrapper ins-section-wrapper">
@@ -344,10 +343,10 @@
         var INSIGHT_CONFIG = {
             TRANSLATION: {
                 POSTS: 'Posts',
-                PAGES: 'Pages',
-                CATEGORIES: 'Catégories',
+                PAGES: 'Páginas',
+                CATEGORIES: 'Categorías',
                 TAGS: 'Tags',
-                UNTITLED: '(Sans Titre)',
+                UNTITLED: '(Sin título)',
             },
             CONTENT_URL: '/content.json',
         };
