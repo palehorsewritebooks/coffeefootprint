@@ -416,8 +416,6 @@ figure.highlight {
     font-weight: 300;
     font-family: inherit !important;
     line-height: 1.5; }
-  .gallery-item img {
-    max-width: 92%; }
 
 .ins-section-container {
   position: relative;
