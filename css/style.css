@@ -57,7 +57,8 @@ a.tag.article-tag {
   margin-bottom: 3rem; }
   .article .article-entry h1, .article .article-entry h2, .article .article-entry h3, .article .article-entry h4, .article .article-entry h5, .article .article-entry h6 {
     cursor: pointer;
-    position: relative; }
+    position: relative;
+    font-weight: bold; }
     .article .article-entry h1:hover:before, .article .article-entry h2:hover:before, .article .article-entry h3:hover:before, .article .article-entry h4:hover:before, .article .article-entry h5:hover:before, .article .article-entry h6:hover:before {
       content: '#';
       position: absolute;
