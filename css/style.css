@@ -400,7 +400,8 @@ figure.highlight {
   padding: 0;
   line-height: 0;
   max-width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding: 1.5%; }
   .gallery-item:hover .caption {
     display: initial; }
   .gallery-item .caption {
@@ -418,8 +419,6 @@ figure.highlight {
     font-weight: 300;
     font-family: inherit !important;
     line-height: 1.5; }
-  .gallery-item img {
-    max-width: 98%; }
 
 .ins-section-container {
   position: relative;
