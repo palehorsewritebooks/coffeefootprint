@@ -52,6 +52,7 @@ a.tag.article-tag {
     margin: 0 0.3rem; }
 
 .article .article-entry {
+  padding: 3%;
   margin-bottom: 3rem; }
   .article .article-entry h1, .article .article-entry h2, .article .article-entry h3, .article .article-entry h4, .article .article-entry h5, .article .article-entry h6 {
     cursor: pointer;
@@ -60,8 +61,6 @@ a.tag.article-tag {
       content: '#';
       position: absolute;
       right: 100%; }
-  .article .article-entry p {
-    padding: 0 3%; }
 
 .article .article-more-link a {
   font-size: .9rem;
