@@ -60,6 +60,8 @@ a.tag.article-tag {
       content: '#';
       position: absolute;
       right: 100%; }
+  .article .article-entry p {
+    padding: 0 3%; }
 
 .article .article-more-link a {
   font-size: .9rem;
