@@ -405,7 +405,7 @@ figure.highlight {
   line-height: 0;
   max-width: 100%;
   text-align: center;
-  padding: 2.2%;
+  padding: 2%;
   border: solid 1px #bebebe; }
   .gallery-item:hover .caption {
     display: initial; }
