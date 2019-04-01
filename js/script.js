@@ -79,4 +79,11 @@
             $(this).text(moment($(this).attr('datetime')).fromNow());
         });
     }
+
+    $('.navbar-dropdown .navbar-item').click(function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        $('html,body').animate({scrollTop:$($(this).attr('href')).offset().top}, "show");
+        return false; 
+    });
 })(jQuery);
