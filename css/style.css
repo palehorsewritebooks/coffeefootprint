@@ -53,7 +53,7 @@ a.tag.article-tag {
     margin: 0 0.3rem; }
 
 .article .article-entry {
-  padding: 0 4%;
+  padding: 0;
   margin-bottom: 3rem;
   font-size: 1.2rem; }
   .article .article-entry h1, .article .article-entry h2, .article .article-entry h3, .article .article-entry h4, .article .article-entry h5, .article .article-entry h6 {
