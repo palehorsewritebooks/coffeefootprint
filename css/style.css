@@ -73,9 +73,10 @@ a.tag.article-tag {
 
 .article .article-more-link a {
   font-size: .9rem;
+  text-align: center;
   color: #fff;
   border-radius: 4px;
-  padding: 5px;
+  padding: 4px 8px;
   background-color: #996400;
   /*
         border-bottom: 1px dotted transparent;
