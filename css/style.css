@@ -204,6 +204,9 @@ a.tag.article-tag {
 .article .gist .file {
   all: initial; }
 
+.content ul {
+  margin-left: 1rem; }
+
 .sharebox {
   margin-top: 3rem; }
 
