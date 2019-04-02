@@ -74,9 +74,14 @@ a.tag.article-tag {
 .article .article-more-link a {
   font-size: .9rem;
   color: darkgray;
-  border-bottom: 1px dotted transparent; }
-  .article .article-more-link a:hover {
-    border-bottom-color: darkgray; }
+  border-radius: 4px;
+  padding: 5px;
+  background-color: #996400;
+  /*
+        border-bottom: 1px dotted transparent;
+        &:hover {
+            border-bottom-color: darkgray;
+        }*/ }
 
 .article .article-nav a {
   color: darkgray;
