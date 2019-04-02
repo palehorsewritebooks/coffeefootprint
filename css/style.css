@@ -78,6 +78,7 @@ a.tag.article-tag {
   border-radius: 4px;
   padding: 4px 8px;
   background-color: #C27E00;
+  font-weight: bold;
   /*
         border-bottom: 1px dotted transparent;
         &:hover {
